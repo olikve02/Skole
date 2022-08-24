@@ -1,4 +1,4 @@
-package no.hvl.dat100;
+package no.hvl.dat100.no.hvl.dat100;
 
 import easygraphics.*;
 
