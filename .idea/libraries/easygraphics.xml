@@ -1,7 +1,7 @@
 <component name="libraryTable">
   <library name="easygraphics">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/../Java/easygraphics/lib/easygraphics.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../dat100public/easygraphics/lib/easygraphics.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />
