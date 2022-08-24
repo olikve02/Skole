@@ -11,11 +11,11 @@ public class Lab1_4 {
 
        double timer = sekund / 3600;
        double minutter = sekund % 3600;
-       double sekunder = sekund % 60;
+
 
        System.out.println(timer);
        System.out.println(minutter);
-       System.out.println(sekunder);
+
 
 
     }

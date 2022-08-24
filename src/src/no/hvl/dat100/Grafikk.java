@@ -1,6 +1,6 @@
 package no.hvl.dat100;
 
-import  easygraphics.*;
+import easygraphics.*;
 
 
 public class Grafikk extends EasyGraphics {
