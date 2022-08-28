@@ -1,4 +1,4 @@
-package no.hvl.dat100;
+package com.skole.lab1;
 
 import static javax.swing.JOptionPane.*;
 
@@ -12,6 +12,7 @@ public class Lab1_3 {
         }
         int år = Integer.parseInt(showInputDialog("År"));
 
+        //Lag og skriv ut text string
         String utTxt = dag + "." + måned + "." + år;
         showMessageDialog(null, utTxt);
 

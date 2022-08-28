@@ -1,4 +1,4 @@
-package no.hvl.dat100;
+package com.skole.lab1;
 import static javax.swing.JOptionPane.*;
 
 public class Lab1_1 {

@@ -1,4 +1,4 @@
-package no.hvl.dat100;
+package com.skole.lab1;
 
 import static javax.swing.JOptionPane.*;
 
@@ -13,9 +13,9 @@ public class Lab1_4 {
        double minutter = sekund % 3600;
        double sekunder = sekund % 60;
 
-       System.out.println(timer);
-       System.out.println(minutter);
-       System.out.println(sekunder);
+       String utTxt = timer + "Timer" + minutter + "Minutter" + sekunder + "Sekunder";
+
+       showMessageDialog(null, utTxt);
 
 
 
