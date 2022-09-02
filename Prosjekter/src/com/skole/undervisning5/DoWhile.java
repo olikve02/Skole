@@ -1,4 +1,4 @@
-package com.skole.eksempel;
+package com.skole.undervisning5;
 
 import java.util.concurrent.ThreadLocalRandom;
 
@@ -10,7 +10,7 @@ public class DoWhile {
         do {
             int terningkast = ThreadLocalRandom.current().nextInt(1, 7);
             System.out.println("Terningkast: " + terningkast);
-            sum = sum + terningkast;
+            sum += terningkast;
             System.out.println("Sum: " + sum);
         } while (sum <= 100);
     }

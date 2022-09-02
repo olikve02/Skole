@@ -3,23 +3,29 @@ package com.skole.lab2;
 import javax.swing.*;
 import  javax.swing.JOptionPane.*;
 
+import static javax.swing.JOptionPane.showInputDialog;
+import static javax.swing.JOptionPane.showMessageDialog;
+
 public class B2 {
     public static void main(String[] args) {
+
         //Input
-        double pris = Integer.parseInt(JOptionPane.showInputDialog("Pris"));
-        double beløp = Integer.parseInt(JOptionPane.showInputDialog("Beløp"));
+        int pris = Integer.parseInt(showInputDialog("Pris"));
+        int beløp = Integer.parseInt(showInputDialog("Beløp"));
 
         //Regning
-        double differanse = pris - beløp;
-        System.out.println(differanse);
-        double enere = differanse % 10;
-        System.out.println("enere " + enere);
-        int tiere = (int)differanse / 10;
-        System.out.println("tiere " + tiere);
+        int differanse = pris - beløp;
+        int kr = differanse % 10;
+        int tiKrone = (differanse / 10) % 10;
+        int hundreLapp = differanse / 100;
 
-        //output
-        String utTxt = "Enere:" + enere + "\n Tiere:" + tiere;
-        JOptionPane.showMessageDialog(null, utTxt);
+        //Output
+        String utTxt =
+                "Differanse: " + differanse +
+            "\n  Hundre-lapp: " + hundreLapp +
+            "\n  Ti-kroner: " + tiKrone +
+            "\n  En-kroner: " + kr;
 
+        showMessageDialog(null, utTxt);
     }
 }

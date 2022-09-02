@@ -1,4 +1,4 @@
-package com.skole.eksempel;
+package com.skole.undervisning5;
 
 import javax.swing.*;
 import javax.swing.JOptionPane.*;
