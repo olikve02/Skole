@@ -8,11 +8,12 @@ public class O1 {
         int nettoLønn = 0;
         String trinn = "";
         String utTxt = "";
-        if(inntekt <= 267899){
+        if(inntekt <= 190349){
+            showMessageDialog(null, "Ingen skatt");
+        }else if(inntekt <= 267899){
             //trinn 1
             trinn = "Trinn 1";
             nettoLønn = (int)(inntekt * 0.983);
-
         } else if (inntekt <= 643799) {
             //trinn 2
             trinn = "Trinn 2";
